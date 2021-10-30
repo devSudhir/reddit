@@ -1,0 +1,176 @@
+.mainModal{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.leftSide{
+    width: 156px;
+    background-image: url(https://www.redditstatic.com/accountmanager/bbb584033aa89e39bad69436c504c9bd.png);
+    height: 100vh;
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightSide{
+    align-self: center;
+    padding: 24px;
+    width: 100%;
+
+}
+.title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+.description{
+
+    margin-bottom: 48px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+    text-align: left;
+    /* margin-bottom: 0px;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px; */
+}
+.rightUp, .rightDown{
+    margin-bottom: 18px;
+    width: 280px;
+}
+#google, #apple{
+    box-sizing: content-box !important;
+    padding: 16px 0px 1px 65px;
+    position: relative;
+    text-align: left;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: unset;
+    min-height: 35px;
+    max-width: 392px;
+    min-width: 155px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(0, 121, 211);
+    border: 1px solid rgb(0, 121, 211);
+    display: block;
+    height: auto;
+    margin: 8px 0px;
+    /* width: 100%; */
+}
+#google:hover, #apple:hover{
+    background-color: rgb(0, 121, 211);
+    color:white;
+}
+.signIconsG{
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 16px;
+    position: absolute;
+    width: 20px;
+    background-image: url(https://www.redditstatic.com/accountmanager/021031274726bcaef27a190f609eb59f.svg);
+/* border: 1px solid red; */
+background-color: white;
+border-radius:4px;
+}
+.signIconsA{
+    
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 16px;
+    position: absolute;
+    width: 20px;
+    background-image: url(https://www.redditstatic.com/accountmanager/56133cfff407f8c1fb8694b4ef00975c.svg);
+    /* bottom: 15px; */
+    background-color: white;
+    border-radius:4px;
+}
+
+.divider{
+    align-items: center;
+    display: flex;
+    margin: 28px 0px;
+    justify-content: space-between;
+    
+}
+.dividerLine{
+    border-top: 1px solid rgb(237, 239, 241);
+    width: 40%;
+}
+.dividerText{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(135, 138, 140);
+    text-transform: uppercase;
+}
+.btn{
+    font-family: Noto Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: unset;
+    line-height: 18px;
+    text-transform: unset;
+    background: #0079d3;
+    border-radius: 999px;
+    color: #fff;
+    height: 40px;
+    padding: 0 16px;
+    width: 100%;
+    border: 1px;
+}
+.btn:hover{
+    opacity: 0.8;
+    transition: 0.08s ease-in-out;
+    cursor: pointer;
+}
+.afterBtnText1, .afterBtnText2{
+    font-family: Noto Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.afterBtnText2{
+    margin-bottom: 0; 
+    
+}
+.loginChange{
+    cursor:pointer;
+}
+.closeModal{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: initial;
+}
+.closeModalSvg {
+    height: 20px;
+    fill: grey;
+    width: 20px;
+}
+/* .css-l0tlil-MuiInputBase-input-MuiFilledInput-input{
+    height: 0.9em !important;
+} */

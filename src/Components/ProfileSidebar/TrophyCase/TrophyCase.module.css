@@ -1,0 +1,19 @@
+.TrophyCaseContainer {
+  background-color: #fff;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px 10px 25px 10px;
+}
+.heading {
+  font-weight: 500;
+}
+.verified {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.verified img {
+  margin-right: 15px;
+}

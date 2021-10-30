@@ -1,0 +1,125 @@
+.ProfileDetailsContainer {
+  background-color: #fff;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+.blueBackGround {
+  position: relative;
+  height: 100px;
+  border-radius: 5px 5px 0 0;
+  background-color: #33a8ff;
+  margin-bottom: 50px;
+}
+.blueBackGround > div {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  height: 100px;
+}
+.blueBackGround > div > img {
+  width: 90px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: solid 4px white;
+}
+.blueBackGround > div > p {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.createButtonContainer {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.createAvatarButton {
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ec0623, #ff8717);
+}
+.createAvatarButton input[type="file"] {
+  font-size: 30px;
+  position: absolute;
+  left: -60px;
+  top: 0;
+  cursor: pointer;
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.rating {
+  border: none;
+  color: gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.primaryButton {
+  background-color: #0079d3;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 200px;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.moreOptionContainer {
+  padding: 0 20px;
+  text-align: right;
+}
+.moreOptionBox {
+  padding: 10px;
+}
+.moreOption {
+  border: none;
+  color: #0079d3;
+  font-size: 15px;
+  font-weight: 600;
+  background: transparent;
+}
+
+.padding10 {
+  padding: 10px;
+}
+.boldHeading {
+  font-size: 14px;
+  font-weight: 600;
+}
+.subHeading {
+  font-size: 12px;
+  color: gray;
+}
+.countDown {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.lineheight {
+  line-height: 13px;
+}

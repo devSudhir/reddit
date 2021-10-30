@@ -1,0 +1,38 @@
+.aboutCommunityContainer {
+  width: 22vw;
+  background-color: #fff;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  padding: 1px 1px 20px 1px;
+  border-radius: 5px;
+}
+.blueBackGround {
+  background-color: #0079d3;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.padding10 {
+  padding: 10px;
+}
+.countDown {
+  display: flex;
+}
+.countDown > div:nth-child(1) {
+  margin-right: 20px;
+}
+.boldHeading {
+  font-weight: 500;
+}
+.subHeading {
+  font-size: 12px;
+}
+.createdDate {
+  display: flex;
+  align-items: center;
+}
+.createdDate > span {
+  margin-left: 10px;
+}

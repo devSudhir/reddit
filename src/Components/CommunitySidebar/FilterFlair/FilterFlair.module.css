@@ -1,0 +1,30 @@
+.filterFlairContainer {
+  width: 22vw;
+  /* padding: 10px; */
+  background-color: #fff;
+  /* margin: 20px auto; */
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.blueBackGround {
+  background-color: #0079d3;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.buttonBox {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 7px;
+  font-weight: 500;
+  font-size: 15px;
+}
