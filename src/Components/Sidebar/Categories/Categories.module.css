@@ -1,0 +1,24 @@
+.categoryContainer {
+  width: 22vw;
+  background-color: #fff;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.buttonStyling {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.buttonStyling > span {
+  font-size: 10px;
+  font-weight: 700;
+  color: gray;
+}
+.buttonStyling button {
+  border: none;
+  background: transparent;
+}

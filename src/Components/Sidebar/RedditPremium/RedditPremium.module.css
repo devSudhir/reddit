@@ -1,0 +1,60 @@
+.premiumBox {
+  width: 22vw;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+}
+.flexPremium {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  width: 100%;
+}
+.premiumBox > div:first-child {
+  display: flex;
+}
+.premiumParaBox {
+  margin-left: 10px;
+}
+
+.premiumParaBox p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 500;
+
+  line-height: 12px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+.premiumParaBox p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+.primaryOrangeButtonContainer {
+  width: 99%;
+  margin: auto;
+  margin-top: 7px;
+}
+.primaryOrangeButton {
+  background-color: #ff5414;
+  color: #fff;
+  padding: 7px 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  font-weight: 800;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  height: 33px;
+}

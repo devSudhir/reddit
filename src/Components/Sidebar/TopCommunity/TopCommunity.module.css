@@ -1,0 +1,99 @@
+.TopComunityContainer {
+  width: 22vw;
+  /* padding: 10px; */
+  background-color: #fff;
+  margin: 0px auto 20px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.TopComunityHeading {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://styles.redditmedia.com/t5_3gcwj/styles/bannerBackgroundImage_xb79tkanji141.jpg?format=pjpg&s=f3b989950120f6aef4fd1a76cebadfdd526035fc");
+  background-position: 50%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.TopComunityHeading h4 {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  text-align: left;
+  color: #fff;
+}
+.community {
+  /* border-bottom: thin solid rgb(200, 203, 205, 0.3); */
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.community a {
+  text-decoration: none;
+}
+.communityDetails {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.communityDetails > span:first-child {
+  margin-right: 10px;
+}
+.communityDetails img {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 24px;
+  box-sizing: border-box;
+  font-size: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 8px;
+  width: 32px;
+}
+.primaryButtonContainer {
+  width: 92%;
+  margin: auto;
+}
+.primaryButton {
+  background-color: #0079d3;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  margin: 20px 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+}
+.tags {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.tags span {
+  border: none;
+  color: #0079d3;
+  background: transparent;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.backgroundWhite {
+  background-color: #fff;
+}
+
+.avatar {
+  width: 33px !important;
+  height: 33px !important;
+  margin: 0px 8px !important;
+  font-size: 18px !important;
+}
